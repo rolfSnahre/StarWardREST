@@ -5,10 +5,10 @@ using System.Web;
 
 namespace WebApplication1.Models
 {
-    public class Planet
+    public class CPlanet
     {
-        public Planet() { }
-        public Planet(string name, int population, List<Film> films, List<Resident> residents)
+        public CPlanet() { }
+        public CPlanet(string name, string population, List<CFilm> films, List<CResident> residents)
         {
             this.name = name;
             this.population = population;
@@ -16,9 +16,9 @@ namespace WebApplication1.Models
             this.residents = residents;
         }
         public string name;
-        public int population;
-        public List<Film> films;
-        public List<Resident> residents;
+        public string population;
+        public List<CFilm> films;
+        public List<CResident> residents;
 
     }
 }

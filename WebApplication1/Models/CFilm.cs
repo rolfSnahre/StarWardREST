@@ -5,10 +5,10 @@ using System.Web;
 
 namespace WebApplication1.Models
 {
-    public class Film
+    public class CFilm
     {
-        public Film() { }
-        public Film(string director, string title)
+        public CFilm() { }
+        public CFilm(string director, string title)
         {
             this.director = director;
             this.title = title;
